@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.custom-select{
+  border: white !important
+  color: blue;
+}
+
+.col {
+  text-align: center;
+}
+
+#answer {
+  text-align: center;
+}
+
+.navbar {
+  min-height: 60px,
+}
+
+.navbar-brand {
+  color: white;
+  font-family: 'Inconsolata', monospace;
+  font-size: 1rem;
+}
+
+
+
+#test {
+  background-color:   #FF8C00;
+  color: white;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  font-family: 'Inconsolata', monospace;
+  font-size: 16px;
+  border:   white;
+  border-radius: 3px;
+  outline: none;
+}
+
+#test:hover {
+  opacity: 90%;
+  border-color: #FF8C00;
+  display: center;
+}
+
+#test:focus {
+  background-color: rgb(192,192,192);
+  border: none !important;
+  outline: none;
+}
+
+#result, #results {
+  padding-top: 20px;
+  text-align: center;
+  font-family: 'Inconsolata', monospace;
+  color: #FF8C00;
+}
+
+
+h1 {
+  color: black;
+  text-align: center;
+  font: 'Times';
+  font-size: 48px;
+  padding-top: 8px;
+
+}
+
+.container {
+padding-top: 50px;
+}
+
+
+p {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 50px
+  color: #FF8C00;
+}
+
+2
+
+.select2-results .select2-highlighted {
+    background: #3ea211;
+}
+
+ /* for design box where to type .select2-search input { background-color: red; } */
+ /* .select2-search { background-color: grey; }
+
+.select2-results { background-color: grey; }*/
+
