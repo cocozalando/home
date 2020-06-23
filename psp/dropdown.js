@@ -21,15 +21,7 @@ function getSubChannel(){
 
             }
 
-            else if (list1SelectedValue=='003')
-            {
-
-                list2.options.length=0;
-
-                list2.options[1] = new Option('BROCKEN TRACKING', '01');
-
-
-            }
+            
 
             else if (list1SelectedValue=='004')
             {
