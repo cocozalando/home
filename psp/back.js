@@ -21,7 +21,7 @@
     function GetSelectedOrderId(){
         var country = document.getElementById("country");
 
-        var results = 'ROO1FS000' + country.options[country.selectedIndex].value + '0'
+        var results = 'R001FS000' + country.options[country.selectedIndex].value + '0'
 
         document.getElementById("results").innerHTML = results;
       }
