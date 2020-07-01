@@ -56,7 +56,6 @@ function getSubChannel(){
                 list2.options[1] = new Option('B2B', '01');
                 list2.options[2] = new Option('B2C', '02');
                 list2.options[3] = new Option('RETAIL', '03');
-                list2.options[3] = new Option('GIFTCARD', '04');
 
 
             }
