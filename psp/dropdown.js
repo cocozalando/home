@@ -31,7 +31,7 @@ function getSubChannel(){
                 list2.options[2] = new Option('Instant Messages', '03');
                 list2.options[3] = new Option('Online', '05');
                 list2.options[4] = new Option('Push Notification', '06');
-                list2.options[5] = new Option('UNDEFINED', '02');
+             
                 
             }
 
@@ -53,9 +53,9 @@ function getSubChannel(){
 
                 list2.options.length=0;
 
-                list2.options[1] = new Option('B2B', '01');
-                list2.options[2] = new Option('B2C', '02');
-                list2.options[3] = new Option('RETAIL', '03');
+                list2.options[2] = new Option('B2B', '01');
+                list2.options[3] = new Option('B2C', '02');
+                list2.options[4] = new Option('RETAIL', '03');
 
 
             }
@@ -190,10 +190,9 @@ function getSubChannel(){
 
                 list2.options.length=0;
 
-                list2.options[1] = new Option('CLASSIC', '02');
-                list2.options[2] = new Option('DIGITAL', '03');
-                list2.options[3] = new Option('SPONSORED', '04');
-                list2.options[3] = new Option('TV', '01');
+                list2.options[2] = new Option('CLASSIC', '02');
+                list2.options[3] = new Option('DIGITAL', '03');
+                list2.options[4] = new Option('SPONSORED', '04');
 
             }
 
