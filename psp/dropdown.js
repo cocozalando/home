@@ -98,7 +98,7 @@ function getSubChannel(){
                 list2.options.length=0;
 
                 list2.options[1] = new Option('PROGRAMMATIC', '02');
-                list2.options[2] = new Option('ONLINE VIDEOS', '03');
+                list2.options[2] = new Option('REACH VIDEOS', '03');
                 list2.options[3] = new Option('DIRECT DEALS', '04');
         
 
@@ -111,9 +111,9 @@ function getSubChannel(){
                 list2.options.length=0;
 
 
-                list2.options[2] = new Option('Classic', '02');
-                list2.options[3] = new Option('Digital', '03');
-                list2.options[4] = new Option('Specials', '04');
+                list2.options[2] = new Option('CLASSIC', '02');
+                list2.options[3] = new Option('DIGITAL', '03');
+                list2.options[4] = new Option('SPECIALS', '04');
             }
 
             else if (list1SelectedValue=='022')
@@ -169,7 +169,7 @@ function getSubChannel(){
 
                 list2.options.length=0;
 
-                list2.options[1] = new Option('REACH PERSONALIZED MARKETING', '01');
+                list2.options[1] = new Option('REACH (PERSONALIZED MARKETING)', '01');
                 list2.options[2] = new Option('RETARGET (PERSONALIZED MARKETING', '03');
                 list2.options[3] = new Option('PUSH (MARKETS)', '04');
 
