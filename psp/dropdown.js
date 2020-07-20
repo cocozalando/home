@@ -169,8 +169,10 @@ function getSubChannel(){
 
                 list2.options.length=0;
 
-                list2.options[1] = new Option('REACH', '01');
-                list2.options[2] = new Option('RETARGET', '03');
+                list2.options[1] = new Option('REACH PERSONALIZED MARKETING', '01');
+                list2.options[2] = new Option('RETARGET (PERSONALIZED MARKETING', '03');
+                list2.options[3] = new Option('PUSH (MARKETS)', '04');
+
 
             }
 
