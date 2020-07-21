@@ -28,9 +28,8 @@ function getSubChannel(){
             {
 
                 list2.options.length=0;
-                list2.options[2] = new Option('Instant Messages', '03');
-                list2.options[3] = new Option('Online', '05');
-                list2.options[4] = new Option('Push Notification', '06');
+                list2.options[2] = new Option('CRM', '01');
+
              
                 
             }
@@ -87,7 +86,6 @@ function getSubChannel(){
                 list2.options.length=0;
 
                 list2.options[3] = new Option('MEDIA COLLABORATION', '01');
-                list2.options[5] = new Option('COLLABORY', '02');
 
             }
 
@@ -113,7 +111,7 @@ function getSubChannel(){
 
                 list2.options[2] = new Option('CLASSIC', '02');
                 list2.options[3] = new Option('DIGITAL', '03');
-                list2.options[4] = new Option('SPECIALS', '04');
+                list2.options[4] = new Option('SPONSORED', '04');
             }
 
             else if (list1SelectedValue=='022')
@@ -159,9 +157,7 @@ function getSubChannel(){
 
                 list2.options.length=0;
 
-                list2.options[1] = new Option('BRAND', '01');
-                list2.options[2] = new Option('NON-BRAND', '03');
-       
+                list2.options[1] = new Option('SEO', '02');       
             }
 
             else if (list1SelectedValue=='028')
@@ -183,6 +179,18 @@ function getSubChannel(){
 
                 list2.options[2] = new Option('GLOBAL', '02');
                 list2.options[3] = new Option('LOCAL', '03');
+
+            }
+            
+             else if (list1SelectedValue=='026')
+            {
+
+                list2.options.length=0;
+
+                list2.options[2] = new Option('BRAND (PERSONALIZED MARKETING)', '01');
+                list2.options[3] = new Option('REACH (PERSONALIZED MARKETING)', '04');
+                list2.options[4] = new Option('NON-BRAND (PERSONALIZED MARKETING)', '03');
+
 
             }
 
