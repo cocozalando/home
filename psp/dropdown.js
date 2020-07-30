@@ -111,7 +111,7 @@ function getSubChannel(){
 
                 list2.options[2] = new Option('CLASSIC', '02');
                 list2.options[3] = new Option('DIGITAL', '03');
-                list2.options[4] = new Option('SPONSORED', '04');
+                list2.options[4] = new Option('SPECIALS', '04');
             }
 
             else if (list1SelectedValue=='022')
