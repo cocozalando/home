@@ -96,8 +96,8 @@ function getSubChannel(){
                 list2.options.length=0;
 
                 list2.options[1] = new Option('PROGRAMMATIC', '02');
-                list2.options[2] = new Option('REACH VIDEOS', '03');
-                list2.options[3] = new Option('DIRECT DEALS', '04');
+                list2.options[2] = new Option('REACH VIDEOS', '04');
+                list2.options[3] = new Option('DIRECT DEALS', '05');
         
 
             }
