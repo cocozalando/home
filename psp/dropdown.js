@@ -42,6 +42,7 @@ function getSubChannel(){
 
                 list2.options[2] = new Option('CONSUMER', '02');
                 list2.options[3] = new Option('PARTNER', '03');
+                list2.options[4] = new Option('CAST-CELEBRITIES', '04');
            
 
 
@@ -66,6 +67,7 @@ function getSubChannel(){
 
                 list2.options[1] = new Option('INFLUENCEUR COLLABORATION', '01');
                 list2.options[2] = new Option('PRODUCTION', '02');
+                list2.options[3] = new Option('AGENCY FEE', '03');
 
 
             }
@@ -120,6 +122,8 @@ function getSubChannel(){
                 list2.options.length=0;
 
                 list2.options[1] = new Option('PR', '01');
+                list2.options[2] = new Option('AGENCY FEE', '02');
+                list2.options[3] = new Option('CAST-CELEBRITIES', '03');
             }
 
             else if (list1SelectedValue=='023')
@@ -140,6 +144,9 @@ function getSubChannel(){
                 list2.options[3] = new Option('CONTENT', '03');
                 list2.options[4] = new Option('zSTUDIOS', '04');
                 list2.options[5] = new Option('MARKETS LOCAL', '05');
+                list2.options[6] = new Option('AGENCY FEE', '06');
+                list2.options[7] = new Option('CAST-CELEBRITIES', '07');
+                list2.options[8] = new Option('MUSIC', '08');
 
             }
 
@@ -179,6 +186,7 @@ function getSubChannel(){
 
                 list2.options[2] = new Option('GLOBAL', '02');
                 list2.options[3] = new Option('LOCAL', '03');
+                list2.options[5] = new Option('AGENCY FEE', '05');
 
             }
             
