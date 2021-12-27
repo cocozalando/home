@@ -8,7 +8,7 @@ function getSubChannel(){
             {
                 list2.options.length=0;
 
-                list2.options[1] = new Option('AFFILIATE', '01');
+                list2.options[1] = new Option('affiliate', '01');
             }
             
 
@@ -17,7 +17,7 @@ function getSubChannel(){
 
                 list2.options.length=0;
 
-                list2.options[1] = new Option('CINEMA', '01');
+                list2.options[1] = new Option('cinema', '01');
 
 
             }
@@ -28,7 +28,7 @@ function getSubChannel(){
             {
 
                 list2.options.length=0;
-                list2.options[2] = new Option('CRM', '01');
+                list2.options[2] = new Option('crm', '01');
 
              
                 
@@ -40,9 +40,9 @@ function getSubChannel(){
 
                 list2.options.length=0;
 
-                list2.options[2] = new Option('CONSUMER', '02');
-                list2.options[3] = new Option('PARTNER', '03');
-                list2.options[4] = new Option('CAST-CELEBRITIES', '04');
+                list2.options[2] = new Option('consumer', '02');
+                list2.options[3] = new Option('partner', '03');
+                list2.options[4] = new Option('cast-celebrities', '04');
            
 
 
@@ -53,9 +53,9 @@ function getSubChannel(){
 
                 list2.options.length=0;
 
-                list2.options[2] = new Option('B2B', '01');
-                list2.options[3] = new Option('B2C', '02');
-                list2.options[4] = new Option('RETAIL', '03');
+                list2.options[2] = new Option('b2b', '01');
+                list2.options[3] = new Option('b2c', '02');
+                list2.options[4] = new Option('retail', '03');
 
 
             }
@@ -65,9 +65,9 @@ function getSubChannel(){
 
                 list2.options.length=0;
 
-                list2.options[1] = new Option('INFLUENCEUR COLLABORATION', '01');
-                list2.options[2] = new Option('PRODUCTION', '02');
-                list2.options[3] = new Option('AGENCY FEE', '03');
+                list2.options[1] = new Option('influencer collaboration', '01');
+                list2.options[2] = new Option('production', '02');
+                list2.options[3] = new Option('agency fee', '03');
 
 
             }
@@ -77,7 +77,7 @@ function getSubChannel(){
 
                 list2.options.length=0;
 
-                list2.options[1] = new Option('MARKET RESEARCH', '01');
+                list2.options[1] = new Option('market research', '01');
 
 
             }
@@ -87,7 +87,7 @@ function getSubChannel(){
 
                 list2.options.length=0;
 
-                list2.options[3] = new Option('MEDIA COLLABORATION', '01');
+                list2.options[3] = new Option('media collaboration', '01');
 
             }
 
@@ -97,9 +97,9 @@ function getSubChannel(){
 
                 list2.options.length=0;
 
-                list2.options[1] = new Option('PROGRAMMATIC', '02');
-                list2.options[2] = new Option('REACH VIDEOS', '04');
-                list2.options[3] = new Option('DIRECT DEALS', '05');
+                list2.options[1] = new Option('programmatic', '02');
+                list2.options[2] = new Option('reach videos', '04');
+                list2.options[3] = new Option('direct deals', '05');
         
 
             }
@@ -111,9 +111,9 @@ function getSubChannel(){
                 list2.options.length=0;
 
 
-                list2.options[2] = new Option('CLASSIC', '02');
-                list2.options[3] = new Option('DIGITAL', '03');
-                list2.options[4] = new Option('SPECIALS', '04');
+                list2.options[2] = new Option('classic', '02');
+                list2.options[3] = new Option('digital', '03');
+                list2.options[4] = new Option('specials', '04');
             }
 
             else if (list1SelectedValue=='022')
@@ -121,9 +121,9 @@ function getSubChannel(){
 
                 list2.options.length=0;
 
-                list2.options[1] = new Option('PR', '01');
-                list2.options[2] = new Option('AGENCY FEE', '02');
-                list2.options[3] = new Option('CAST-CELEBRITIES', '03');
+                list2.options[1] = new Option('pr', '01');
+                list2.options[2] = new Option('agency fee', '02');
+                list2.options[3] = new Option('cast-celebrities', '03');
             }
 
             else if (list1SelectedValue=='023')
@@ -131,7 +131,7 @@ function getSubChannel(){
 
                 list2.options.length=0;
 
-                list2.options[1] = new Option('PRINT', '01');
+                list2.options[1] = new Option('print', '01');
             }
 
             else if (list1SelectedValue=='024')
@@ -139,14 +139,14 @@ function getSubChannel(){
 
                 list2.options.length=0;
 
-                list2.options[1] = new Option('CAMPAIGNS', '01');
-                list2.options[2] = new Option('SOCIAL MEDIA', '02');
-                list2.options[3] = new Option('CONTENT', '03');
-                list2.options[4] = new Option('zSTUDIOS', '04');
-                list2.options[5] = new Option('MARKETS LOCAL', '05');
-                list2.options[6] = new Option('AGENCY FEE', '06');
-                list2.options[7] = new Option('CAST-CELEBRITIES', '07');
-                list2.options[8] = new Option('MUSIC', '08');
+                list2.options[1] = new Option('campaigns', '01');
+                list2.options[2] = new Option('social media', '02');
+                list2.options[3] = new Option('content', '03');
+                list2.options[4] = new Option('zstudios', '04');
+                list2.options[5] = new Option('markets local', '05');
+                list2.options[6] = new Option('agency fee', '06');
+                list2.options[7] = new Option('cast-celebrities', '07');
+                list2.options[8] = new Option('music', '08');
 
             }
 
@@ -155,7 +155,7 @@ function getSubChannel(){
 
                 list2.options.length=0;
 
-                list2.options[1] = new Option('RADIO', '01');
+                list2.options[1] = new Option('radio', '01');
             }
 
 
@@ -164,7 +164,7 @@ function getSubChannel(){
 
                 list2.options.length=0;
 
-                list2.options[1] = new Option('SEO', '02');       
+                list2.options[1] = new Option('seo', '02');       
             }
 
             else if (list1SelectedValue=='028')
@@ -172,9 +172,9 @@ function getSubChannel(){
 
                 list2.options.length=0;
 
-                list2.options[1] = new Option('REACH (PERSONALIZED MARKETING)', '01');
-                list2.options[2] = new Option('RETARGET (PERSONALIZED MARKETING', '03');
-                list2.options[3] = new Option('PUSH (MARKETS)', '04');
+                list2.options[1] = new Option('reach (personalized marketing)', '01');
+                list2.options[2] = new Option('retarget (personalized marketing', '03');
+                list2.options[3] = new Option('push (markets)', '04');
 
 
             }
@@ -184,9 +184,9 @@ function getSubChannel(){
 
                 list2.options.length=0;
 
-                list2.options[2] = new Option('GLOBAL', '02');
-                list2.options[3] = new Option('LOCAL', '03');
-                list2.options[5] = new Option('AGENCY FEE', '05');
+                list2.options[2] = new Option('global', '02');
+                list2.options[3] = new Option('local', '03');
+                list2.options[5] = new Option('agency fee', '05');
 
             }
             
@@ -195,9 +195,9 @@ function getSubChannel(){
 
                 list2.options.length=0;
 
-                list2.options[2] = new Option('BRAND (PERSONALIZED MARKETING)', '01');
-                list2.options[3] = new Option('REACH (PERSONALIZED MARKETING)', '04');
-                list2.options[4] = new Option('NON-BRAND (PERSONALIZED MARKETING)', '03');
+                list2.options[2] = new Option('brand (personalized marketing)', '01');
+                list2.options[3] = new Option('reach (personalized marketing)', '04');
+                list2.options[4] = new Option('non-brand (personalized marketing)', '03');
 
 
             }
@@ -208,9 +208,9 @@ function getSubChannel(){
 
                 list2.options.length=0;
 
-                list2.options[2] = new Option('CLASSIC', '02');
-                list2.options[3] = new Option('DIGITAL', '03');
-                list2.options[4] = new Option('SPONSORED', '04');
+                list2.options[2] = new Option('classic', '02');
+                list2.options[3] = new Option('digital', '03');
+                list2.options[4] = new Option('sponsored', '04');
 
             }
 
