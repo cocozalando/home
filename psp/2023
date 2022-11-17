@@ -1,0 +1,237 @@
+<html>
+
+  <head >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.1.0-beta.1/css/select2.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.1.0-beta.1/js/select2.min.js"></script>
+    <script src="search.js"></script>
+
+
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="https://cocozalando.github.io/home/">
+      <img src="logo.ico" width="30" height="30" class="d-inline-block align-top" alt="" link="https://cocozalando.github.io/home/">
+        MARKTETING COST CONTROLLING</a>
+    </nav>
+
+    <br>
+    <center><p style="color:red;"><b>PLEASE NOTE:</b></p> When generating the PSP for <b>ALWAYS-ON</b> please always begin the PSP with 001MAR<b>20</b>90 </center>
+    
+    <div class="container">
+      <div class="row justify-content-around">
+
+        <div class="col-md-2 ">
+          <select class="custom-select" id="year" >
+            <option value="" disabled selected></option>
+            <option value="23">2023</option>
+          </select>
+        </div>
+
+
+
+        <div class="col-md-3">
+
+          <select class="custom-select" id="campaign" >
+            <option value="" disabled selected></option>
+           <option value="46">spring '23</option>
+           <option value="47">summer '23</option>
+           <option value="48">autumn '23</option>
+           <option value="83">cyber</option>
+           <option value="6">holiday</option>
+           <option value="3">core fashion store mid-funnel </option>
+           <option value="15">streetwear mid-funnel </option>
+           <option value="16">sports mid-funnel </option>
+           <option value="13">designer mid-funnel </option>
+           <option value="54">ny resolution</option>
+           <option value="29">fashion week</option>
+           <option value="36">earth day</option>
+           <option value="67">festival</option>
+           <option value="62">pride</option>
+           <option value="37">back to school</option>
+           <option value="66">cphfw</option>
+           <option value="24">sustainability always-on</option>
+           <option value="18">fashion inspiration always-on</option>
+           <option value="25">d&i always-on</option>
+           <option value="22">owned channel content always-on </option>
+           <option value="50">q1 zbd</option>
+           <option value="51">q2 zbd</option>
+           <option value="52">q3 zbd</option>
+           <option value="53">q4 zbd</option>
+           <option value="84">eoss aw 22/23</option>
+           <option value="80">mss ss23</option>
+           <option value="81">eoss ss23</option>
+           <option value="82">mss aw23</option>
+           <option value="44">singles day</option>
+           <option value="85">eoss aw 23/24</option>
+           <option value="30">local 1</option>
+           <option value="31">local 2</option>
+           <option value="32">local 3</option>
+           <option value="33">local 4</option>
+           <option value="34">local 5</option>
+           <option value="35">local 6</option>
+           <option value="55">beauty proposition</option>
+           <option value="56">designer proposition</option>
+           <option value="57">streetwear proposition</option>
+           <option value="58">sports proposition</option>
+           <option value="10">fr styles</option>
+           <option value="11">paco rabanne</option>
+           <option value="12">french days</option>
+           <option value="14">fresh days</option>
+           <option value="17">plus launch</option>
+           <option value="19">sephora launch</option>
+           <option value="20">spring '24</option>
+           <option value="21">innovation budget</option>
+           <option value="23">toolbox convenience</option>
+           <option value="26">toolbox sale</option>
+           <option value="27">gmc&c giftcard</option>
+           <option value="28">gmc&c packaging</option>
+           <option value="38">gmc&c other</option>
+           <option value="40">beauty local</option>
+           <option value="41">sports local</option>
+           <option value="42">streetwear local</option>
+           <option value="43">designer local</option>
+           <option value="39">mens</option>
+           <option value="45">zalando anniversary</option>
+           <option value="49">purchase occasion</option>
+           <option value="59">local brand</option>
+           <option value="60">scrapworld</option>
+           <option value="61">verbena</option>
+           <option value="69">sanremo</option>
+           <option value="64">culture&brand</option>
+           <option value="65">lulu lemon</option>
+           <option value="68">highsnobiety</option>
+           <option value="90">always-on fsm</option>
+       
+          </select>
+        </div>
+
+        <div class="col-md-3">
+          <select class="custom-select" id="channel" name= "channel" onchange="getSubChannel()">
+            <option value="" disabled selected></option>
+            <option value="001">affiliate</option>
+            <option value="002">display</option>
+            <option value="003">some paid</option>
+            <option value="004">digital radio</option>
+            <option value="005">digital tv</option>
+            <option value="006">cinema</option>
+            <option value="007">ooh</option>
+            <option value="008">classic radio</option>
+            <option value="009">collaborations</option>
+            <option value="010">marketing events</option>
+            <option value="011">print</option>
+            <option value="012">classic tv</option>
+            <option value="013">events</option>
+            <option value="014">pr</option>
+            <option value="015">influencer collab.</option>
+            <option value="016">some owned distr.</option>
+            <option value="017">giftcards</option>
+            <option value="018">bm crm </option>
+            <option value="019">market research</option>
+            <option value="020">campaign production</option>
+            <option value="021">content production</option>
+            <option value="022">agency fees</option>
+            <option value="023">technical supp.</option>
+            <option value="024">strategic</option>
+            <option value="025">pm sea</option>
+            <option value="026">pm some paid</option>
+            <option value="027">pm display</option>
+            <option value="028">pm seo</option>
+            <option value="029">pm technical support</option>
+            <option value="030">innovation budget</option>
+            <option value="031">wkz</option>
+            <option value="032">accounting effects</option>
+            <option value="033">other zms campaigns</option>
+            <option value="034">creative lab</option>
+            <option value="035">global ots</option>
+            <option value="036">tbd</option>
+
+          </select>
+        </div>
+
+        <div class="col-md-3">
+          <select class="custom-select" id="subchannel"name ="subchannel">
+            <option value="" disabled selected></option>
+          </select>
+        </div>
+
+      </div>
+
+      <div id= "answer">
+      <br/>
+      <br/>
+
+        <button id = "test" type="button" onclick="GetSelectedPsp()" >Show Psp</button>
+      <br>
+      <p id="result" ></p>
+      </div>
+
+<br>
+<br>
+      <div class= "row justify-content-center">
+      <div class="col-md-3">
+          <select class="custom-select" id="country">
+            <option value="" disabled selected></option>
+            <option value="None">Country </option>
+            <option value="DE">DE</option>
+            <option value="AT">AT</option>
+            <option value="CH">CH</option>
+            <option value="PL">PL</option>
+            <option value="CZ">CZ</option>
+            <option value="BE">BE</option>
+            <option value="NL">NL</option>
+            <option value="UK">UK</option>
+            <option value="IE">IE</option>
+            <option value="SE">SE</option>
+            <option value="NO">NO</option>
+            <option value="DK">DK</option>
+            <option value="FI">FI</option>
+            <option value="FR">FR</option>
+            <option value="ES">ES</option>
+            <option value="IT">IT</option>
+            <option value="LT">LT</option>
+            <option value="SK">SK</option>
+            <option value="SI">SI</option>
+            <option value="HR">HR</option>
+            <option value="EE">EE</option>
+            <option value="LV">LV</option>
+            <option value="HU">HU</option>
+            <option value="RO">RO</option>
+            
+           
+
+
+          </select>
+        </div>
+        </div>
+
+      <div id = "answer">
+      <br>
+      <br>
+      <button id = "test" type="button" onclick="GetSelectedOrderId()">Show Order ID</button>
+      <br>
+      <p id="results" ></p>
+      </div>
+    </div>
+
+    <script src="dropdown.js"></script>
+    <script src="back.js"></script>
+    <script src="search.js"></script>
+
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
